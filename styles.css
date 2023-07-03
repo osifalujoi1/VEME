@@ -1,0 +1,57 @@
+body{
+    font-family: Avenir, sans-serif;
+    margin: 0 auto;
+    color: #ffffff;
+    background: linear-gradient(135deg, rgba(0,0,0,0.6), rgba(180,180,180,0.6)), url('https://i.pinimg.com/originals/a6/5b/e2/a65be2c92f6a7a96f005c41f22fe94e8.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+h1, p{
+    text-align: center;
+    margin: 0.2em auto;
+}
+form{
+    max-width: 500px;
+    min-width: 300px;
+    border-radius: 6px;
+    background-color: rgba(80, 80, 80, 0.9);
+    width: 60vw;
+    margin: 1.4em auto;
+}
+::placeholder{
+    color:#b5729a;
+}
+.veme{
+    font-family: Comic sans MS, Avenir;
+}
+input, textarea, select{
+    display: inline;
+    text-align: left;
+    width: 100%;
+    border-radius: 6px;
+}
+.inline{
+    width: unset
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+input[type=submit]{
+    text-align: center;
+    margin: 1em auto;
+    padding: 2.5px;
+    max-width: 200px;
+    font-size: medium;
+    display: block;
+    background-color: darkgrey;
+}
+fieldset{
+    border: none;
+}
+.end{
+    margin: 1em auto;
+    
+}

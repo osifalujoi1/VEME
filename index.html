@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width initil-scale=1.0"/>
+        <meta name="description" content="VEME App Survey Form"/>
+        <title>VEME APP</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <h1 class="title"><span class="veme">VEME</span> App Survey Form</h1>
+        <p>Thanks for taking out time to help us improve our platform</p>
+        <form id="survey-form">
+            <fieldset>
+            <label for="name">
+                Name: <input type="text" id="name"  required placeholder="Enter your name"/>
+            </label>
+            <label for="e-mail">
+                Email: <input type="email" id="e-mail" required placeholder="Enter your email"/>
+            </label>
+            <label for="age">
+                Age: <input type="number" max="120" required min="1" id="age" placeholder="Enter your age"/>
+            </label>
+            <label>
+                Select year if you are a college/high school student 
+                <select type="dropdown">
+                    <option>
+                        Select Year
+                    </option>
+                    <option>
+                        Freshman
+                    </option>
+                    <option>
+                        Sophomore
+                    </option>
+                    <option>
+                        Junior
+                    </option>
+                    <option>
+                        Senior
+                    </option>
+                </select>
+            </label>
+            <label>
+                How did you hear about us:
+            </label>
+            <label for="ads">
+                <input id="ads" type="radio" class="inline"/> Ads
+            </label>
+            <label for="socialmedia" >
+                <input id="socialmedia" type="radio" class="inline"/> Social Media
+            </label>
+            <label for="friend/family">
+                <input id="friend/family" type="radio" class="inline"/> Friend/Family
+            </label>
+            <label for="other">
+                <input id="other" type="radio" class="inline"/> Other
+            </label>
+            <label>
+                What would you like us to improve on? (Check all that apply)
+            </label>
+            <label>
+                <label>
+                    <input class="inline" type="checkbox"/> Games and Graphics
+                </label>
+                <label>
+                    <input class="inline" type="checkbox"/> Ads
+                </label>
+                <label>
+                    <input class="inline" type="checkbox"/> Video edit options
+                </label>
+                <label>
+                    <input class="inline" type="checkbox"/> Audio edit options
+                </label>
+                
+            </label>
+            <label class="end">
+                Additional Comments:
+                <textarea placeholder="Enter your comments here..."></textarea>
+            </label>
+            <input id="Submit" type="submit"/>
+            </fieldset>
+        </form>
+    </body>
+</html>
